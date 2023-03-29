@@ -1785,7 +1785,7 @@ input, select, textarea {
 	}
 
 	header.major h2 {
-		color: #4acaa8;
+		color: #333333;
 		font-size: 3.5em;
 	}
 
@@ -2664,21 +2664,24 @@ input, select, textarea {
 		}
 
 		.features article .image {
-			display: inline-block;
-			padding-right: 2.5em;
-			vertical-align: middle;
-			width: 48%;
+			/* display:block; */
+			/* padding-right: initial; */
+			/* vertical-align: middle; */
+			width:auto;
 		}
 
 			.features article .image img {
-				display: block;
-				width: 100%;
+				/* display: block; */
+				width:100%;
+				height:100%
 			}
 
+
 		.features article .inner {
-			display: inline-block;
-			vertical-align: middle;
-			width: 50%;
+			margin-top:4em;
+			display: block;
+			/* vertical-align: middle; */
+			width: inherit;
 		}
 
 			.features article .inner > :last-child {
@@ -2700,8 +2703,8 @@ input, select, textarea {
 		-webkit-justify-content: space-between;
 		-ms-justify-content: space-between;
 		justify-content: space-between;
-		background: #4acaa8;
-		color: #d2f2e9;
+		background: #000000;
+		color: #ffffff;
 		height: 100%;
 		overflow-y: auto;
 		position: fixed;
@@ -2772,7 +2775,7 @@ input, select, textarea {
 			}
 
 				#header > footer .icons li a {
-					color: #b7eadc;
+					color: #ffffff;
 				}
 
 		#header > nav {
@@ -2789,7 +2792,7 @@ input, select, textarea {
 			}
 
 				#header > nav ul li {
-					border-top: solid 2px #5ccfb1;
+					border-top: solid 2px #000000;
 					display: block;
 					padding: 0;
 				}
@@ -2807,8 +2810,8 @@ input, select, textarea {
 					}
 
 						#header > nav ul li a.active {
-							background: #fff;
-							color: #4acaa8 !important;
+							background: #ffffff;
+							color: #000000 !important;
 						}
 
 					#header > nav ul li:first-child {
